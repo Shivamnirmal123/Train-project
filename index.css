@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    padding-bottom: 2px;
     /* height: 20px; */
 
 }
@@ -69,6 +70,9 @@
     /* align-items: center;
     justify-content: center; */
     height: 50px;
+    padding-left: 55px;
+    padding-top: 15px;
+    font-size: 17px;
     background-color: blueviolet;
     color: white;
     align-content: flex-start;
@@ -88,6 +92,7 @@ form{
     justify-content: center;
     flex-direction: column;
     align-content: center;
+   
     
 }
 #click{
@@ -113,7 +118,12 @@ b{
 }
 .Res
 {
-    
+
+    display: block;
+   
+}
+.pass{
+    display: block;
 }
 #forg{
       color: rgb(27, 4, 4);
@@ -122,7 +132,7 @@ b{
       text-decoration: none;
 }
 label{
-   
+    display: flex;
 
 }
 input{
@@ -135,6 +145,6 @@ input{
     background-color: red;
     display: flex;
     justify-content: center;
-    font-size: medium;
+    font-size: 20px;
     
 }
